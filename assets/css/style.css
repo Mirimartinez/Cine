@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----- HEADER ----- */
+
+header {
+    background-color: rgb(177, 11, 16);
+    height: 10vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+/* ------------- SEARCH --------------- */
+
+/* .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 250px;
+}
+.input {
+height: 40px;
+line-height: 28px;
+padding: 0 1rem;
+padding-left: 2.5rem;
+border: 2px solid transparent;
+border-radius: 8px;
+outline: none;
+background-color: #f3f3f4;
+color: #0d0c22;
+transition: .3s ease;
+}
+.input::placeholder {
+color: #9e9ea7;
+}
+.input:focus, input:hover {
+outline: none;
+border-color: rgba(234,76,137,0.4);
+background-color: #fff;
+box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+.icon {
+position: absolute;
+left: 1rem;
+fill: #9e9ea7;
+width: 1rem;
+height: 1rem;
+} */
+
+
+/* ----- MAIN ----- */
+
+main {
+    background-color: #1f1b1b;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+/* ----- PELICULAS ------ */
+
+.container-peliculas {
+    display: flex;
+    justify-content: center;
+}
+
+.pelicula {
+    background-color: white;
+    width: 290px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+}
+.pelicula-titulo {
+    height: 70%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.pelicula-descripcion {
+    height: 30%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .pelicula img {
+        width: 100%;
+        height: 90%;
+    }
