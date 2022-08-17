@@ -28,5 +28,5 @@ let peliculas = [
         nombre: 'Mentiroso, mentiroso',
         genero: 'Comedia',
         descripcion: 'Trata sobre la vida y obra de la mafia italiana',
-    },
+    }
 ]
