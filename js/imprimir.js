@@ -15,13 +15,15 @@ function plantilla(objeto) {
         </div>`;
 }
 
-function imprimirEnHtml(objeto){
+function imprimirEnHtml(array){
+    array.forEach(objeto => {
     document.querySelector(".container-peliculas").innerHTML += plantilla(objeto)
+    });
 }
 
-imprimirEnHtml(descanso)
-imprimirEnHtml(padrino)
-imprimirEnHtml(scream)
-imprimirEnHtml(mentiroso)
-
+// imprimirEnHtml(descanso)
+// imprimirEnHtml(padrino)
+// imprimirEnHtml(scream)
+// imprimirEnHtml(mentiroso)
+imprimirEnHtml(peliculas)
 
