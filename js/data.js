@@ -28,6 +28,5 @@ let peliculas = [
         nombre: 'Mentiroso, mentiroso',
         genero: 'Comedia',
         descripcion: 'Descripcion 5',
-
     }
 ]
