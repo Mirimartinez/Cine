@@ -1,32 +1,32 @@
 let peliculas = [
     padrino = {
-        imagen: 'https://es.web.img3.acsta.net/pictures/18/06/12/12/12/0117051.jpg?coixp=49&coiyp=27',
+        imagen: 'https://http2.mlstatic.com/D_NQ_NP_636403-MLA41920779831_052020-O.jpg',
         nombre: 'El padrino',
         genero: 'Pelicula clasica',
-        descripcion: 'Trata sobre la vida y obra de la mafia italiana',
+        descripcion: 'Descripcion 1',
     },
-   descanso = {
-        imagen: 'https://mx.web.img2.acsta.net/pictures/19/01/18/01/20/1266344.jpg',
+    descanso = {
+        imagen: 'https://www.themoviedb.org/t/p/w500/jGFqZ4bCAYaNZKHQKBZcTyrH1EV.jpg',
         nombre: 'El descanso',
         genero: 'Drama',
-        descripcion: 'Trata sobre la vida y obra de la mafia italiana',
+        descripcion: 'Descripcion 2',
     }, 
     si = {
-        imagen: 'https://images-na.ssl-images-amazon.com/images/S/pv-target-images/baebe4cca8556266fbbde8d097632bd50a442ab1c85be40a9606748909edd16b._RI_V_TTW_.jpg',
+        imagen: 'https://mx.web.img3.acsta.net/pictures/21/05/18/20/52/1008145.jpg',
         nombre: 'Si, senor',
         genero: 'Comedia',
-        descripcion: 'Trata sobre la vida y obra de la mafia italiana',
+        descripcion: 'Descripcion 3',
     },
     scream = {
-        imagen: 'https://video-images.vice.com/test-uploads/_uncategorized/1589978336705-portada.jpeg',
+        imagen: 'https://ih1.redbubble.net/image.1118061337.9507/fposter,small,wall_texture,product,750x1000.jpg',
         nombre: 'Scream',
         genero: 'Terror',
-        descripcion: 'Trata sobre la vida y obra de la mafia italiana',
+        descripcion: 'Descripcion 4',
     },
     mentiroso = {
-        imagen: 'https://http2.mlstatic.com/D_NQ_NP_646470-MLA25973324620_092017-O.jpg',
+        imagen: 'https://www.themoviedb.org/t/p/original/d4HHI6uc8CNvQaLd8cVdk1tXTwE.jpg',
         nombre: 'Mentiroso, mentiroso',
         genero: 'Comedia',
-        descripcion: 'Trata sobre la vida y obra de la mafia italiana',
+        descripcion: 'Descripcion 5',
     }
 ]

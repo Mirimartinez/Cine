@@ -83,6 +83,8 @@ main {
 
 .container-peliculas {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -92,6 +94,7 @@ main {
     height: 420px;
     display: flex;
     flex-direction: column;
+    border: 1px solid white;
 }
 .pelicula-titulo {
     height: 70%;
